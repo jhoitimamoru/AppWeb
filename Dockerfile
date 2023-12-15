@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 #criando working directory dentro do container
 WORKDIR /app  
-#porta de saída
+#porta de saídaa
 EXPOSE 5194
 
 ENV ASPNETCORE_URLS=http://+:5194
